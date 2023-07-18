@@ -1,0 +1,222 @@
+.content {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Vetrino;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+h1 {
+    font-size: 40px;
+    line-height: 120%;
+}
+h2 {
+    font-size: 26px;
+    line-height: 24px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 24px;
+}
+h4 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.btn {
+    --bs-btn-border-radius: 0;
+    --bs-btn-font-family: 'Open Sans', sans-serif;
+    --bs-btn-padding-x: 16px;
+    --bs-btn-padding-y: 8px;
+
+    border: 1px solid;
+
+    --bs-btn-font-size: 14px;
+    --bs-btn-line-height: 120%;
+    letter-spacing: .5px;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #222;
+    --bs-btn-border-color: #222;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #222;
+    --bs-btn-hover-border-color: #222;
+    --bs-btn-focus-shadow-rgb: 2,2,2;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #222;
+    --bs-btn-active-border-color: #222;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #222;
+    --bs-btn-disabled-border-color: #222;
+}
+
+
+.btn-secondary {
+    --bs-btn-color: #222;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: #222;
+    --bs-btn-hover-color: #222;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: #222;
+    --bs-btn-focus-shadow-rgb: 2,2,2;
+    --bs-btn-active-color: #222;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: #222;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #222;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: transparent;
+}
+p, a {
+    display: block;
+    text-decoration: none;
+
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+/* header */
+header {
+    width: 100%;
+    padding: 24px 40px;
+    background-color: #F3F2ED;
+}
+
+.header__links {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.header__actions {
+    display: flex;
+    gap: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.header__link {
+    line-height: 24px;
+}
+
+/* first block */
+#first {
+    height: 472px;
+    position: relative;
+    background: linear-gradient(180deg, #DBD9D8 0%, #DCDCDA 18.23%, #E0E0E0 42.19%, #E2E2E2 76.56%, #DBD9D8 100%);
+}
+
+.section1-bg {
+    width: 413px;
+    position: absolute;
+    top: 13px;
+    right: 40px;
+    z-index: 2;
+}
+.section1-bg-side {
+    width: 138px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background: linear-gradient(180deg, #DCDCDA 0%, #DAD8D7 2.23%, #D4D2D1 4.18%, #D9D7D5 9.04%, #DBDBD9 34.38%, #DBDBD9 69.79%, #D6D7D2 100%);    ;
+}
+
+
+#second, #third, #fifth, footer  {
+    background-color: #F3F2ED;
+}
+
+/* second block */
+#second {
+    height: 504px;
+}
+/* second block */
+
+
+
+/* third block */
+/* third block */
+
+.card {
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+
+    --bs-card-border-width: 0;
+    --bs-card-border-color: transparent;
+    --bs-card-border-radius: 0;
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: 0;
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: transparent;
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: transparent;
+    --bs-card-img-overlay-padding: 1rem;
+}
+
+.card .cost {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+
+.card .cost .currency {
+    font-weight: 300;
+}
+
+
+/* fourth block */
+
+#fourth {
+    position: relative;
+    background-color: #E2E2E2;
+    height: 337px;
+}
+
+.fourth-section__bg {
+    width: 490px;
+    height: 338px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*footer*/
+
+footer p{
+    line-height: 150%;
+}
+
+.devider {
+    background-color: #222;
+    height: 1px;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+}
